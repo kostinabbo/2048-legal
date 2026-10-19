@@ -37,8 +37,8 @@ footer a{color:var(--soft)}
 <header><a class="brand" href="index.html"><svg viewBox="0 0 108 108" width="36" height="36" aria-hidden="true"><rect width="108" height="108" rx="26" fill="#C2410C"/><text x="54" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-weight="800" font-size="34" fill="#fff">2048</text></svg><span>2048 Puzzle</span></a><nav class="lang"><a href="privacy.html" hreflang="en" aria-current="page">English</a><a href="ru/privacy.html" hreflang="ru">Русский</a></nav></header>
 <main>
 <h1>Privacy policy</h1>
-<p class="updated">Last updated: October 16, 2026</p>
-<p>This policy explains what data the 2048 Puzzle game for Android (on Google Play: “2048 умная игра – головоломка”, package ru.denwa.game_puzzle) collects and why. The game has no ads, no in-app purchases, no own account system and no own server.</p>
+<p class="updated">Last updated: October 19, 2026</p>
+<p>This policy explains what data the 2048 Puzzle game for Android (on Google Play: “2048 умная игра – головоломка”, package ru.denwa.game2048) collects and why. The game has no ads, no in-app purchases, no own account system and no own server.</p>
 <h2>Data stored on your device</h2>
 <p>Your scores, best scores, games in progress, undo history, settings, game progress (level, XP, crystals, collection, achievements, streak and daily quests) and the history of your recent games with their moves are kept in the app’s private storage on your device. They are not sent to us.</p>
 <h2>Backups</h2>
@@ -49,8 +49,14 @@ footer a{color:var(--soft)}
 <p>This data is processed by Google under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. You can change your profile visibility or delete your Play Games data in the Google Play Games settings of your Google account.</p>
 <h2>Analytics and crash reports</h2>
 <p>The game uses Google Firebase services to understand how it is used and to fix errors:</p>
-<ul><li><b>Firebase Analytics</b> collects usage events (for example app opens, screens viewed, session length, the tutorial, a started or finished game with its board size, score, moves and duration, quests, achievements, collection finds and changed settings), device model, Android version, language, an approximate country derived from the IP address, an app-instance identifier and, where your device settings allow it, the Android Advertising ID.</li><li><b>Firebase Crashlytics</b> collects crash reports: the error trace, device model, Android version, app version and an installation identifier.</li></ul>
+<ul><li><b>Firebase Analytics</b> collects usage events (for example app opens, screens viewed, session length, the tutorial, a started or finished game with its board size, score, moves and duration, quests, achievements, collection finds and changed settings), device model, Android version, language, an approximate country derived from the IP address, an app-instance identifier and, where your device settings allow it, the Android Advertising ID.</li><li><b>Firebase Crashlytics</b> collects crash reports: the error trace, device model, Android version, app version and an installation identifier.</li><li><b>Firebase Remote Config</b> lets us change a few game settings without an update (for example the order of the upcoming modes or turning a type of notification off). To get them, the game sends an installation identifier, app version, language and country to Firebase.</li></ul>
 <p>This data does not include your name, email, contacts, photos or precise location. We use it only in aggregated form to improve the game; it is not used for advertising and is not sold. Google processes it under the <a href="https://firebase.google.com/support/privacy">Firebase privacy terms</a> and keeps it for a limited period (crash reports for 90 days, analytics event data for no longer than 14 months).</p>
+<h2>Notifications</h2>
+<p><b>Streak reminders</b> are scheduled on your device: the game remembers at what time of day you usually play (the last 7 days) and reminds you at that time if your streak may end today — at most once a day and never from 10 pm to 9 am. This information stays on your device.</p>
+<p><b>New modes.</b> When “New modes and updates” is on, the game subscribes to a Firebase Cloud Messaging topic, and we send one message to all subscribers when an update with a new mode is out. For this, Firebase Cloud Messaging creates a registration token for your installation; it contains no personal information and is used only to deliver these messages. Turning the setting off unsubscribes your device.</p>
+<p>On Android 13 and later the game asks for permission to show notifications when your streak reaches 2 days. You can turn notifications off at any time in the game settings or in the system settings.</p>
+<h2>Sharing a result</h2>
+<p>“Share” on the results screen creates a picture of your board and score on your device and passes it to the app you choose. Nothing is sent to us.</p>
 <h2>Rating the app</h2>
 <p>The game may show Google Play’s in-app review dialog. Ratings and reviews are handled by Google Play; the game does not see what you write.</p>
 <h2>Children</h2>
@@ -58,7 +64,7 @@ footer a{color:var(--soft)}
 <h2>Your choices</h2>
 <p>You can reset or delete the Advertising ID in your device’s Google settings. Clearing the app’s data or uninstalling the game deletes the data stored on your device and resets the analytics app-instance identifier. To ask about or request deletion of data linked to your installation, contact us.</p>
 <h2>Changes</h2>
-<p>When the game gets new features that affect your data (for example notifications), this policy will be updated before they are released. The date at the top shows the latest version.</p>
+<p>When the game gets new features that affect your data, this policy will be updated before they are released. The date at the top shows the latest version.</p>
 <h2>Contact</h2>
 <p>For privacy questions, use the developer contact listed on the game’s Google Play page.</p>
 </main>

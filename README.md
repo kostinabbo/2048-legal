@@ -1,6 +1,6 @@
 # 2048 Puzzle — legal pages
 
-Privacy policy for the 2048 Puzzle Android game (ru.denwa.game_puzzle), in English and Russian.
+Privacy policy for the 2048 Puzzle Android game (ru.denwa.game2048), in English and Russian.
 
 - Privacy policy: https://kostinabbo.github.io/2048-legal/privacy.html
 - Политика конфиденциальности: https://kostinabbo.github.io/2048-legal/ru/privacy.html
