@@ -37,8 +37,8 @@ footer a{color:var(--soft)}
 <header><a class="brand" href="index.html"><svg viewBox="0 0 108 108" width="36" height="36" aria-hidden="true"><rect width="108" height="108" rx="26" fill="#C2410C"/><text x="54" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-weight="800" font-size="34" fill="#fff">2048</text></svg><span>2048 Puzzle</span></a><nav class="lang"><a href="privacy.html" hreflang="en" aria-current="page">English</a><a href="ru/privacy.html" hreflang="ru">Русский</a></nav></header>
 <main>
 <h1>Privacy policy</h1>
-<p class="updated">Last updated: October 22, 2026</p>
-<p>This policy explains what data the 2048 Puzzle game for Android (on Google Play: “2048 умная игра – головоломка”, package ru.denwa.game2048) collects and why. The game has no ads, no in-app purchases, no own account system and no own server.</p>
+<p class="updated">Last updated: October 23, 2026</p>
+<p>This policy explains what data the 2048 Puzzle game for Android (on Google Play: “2048 умная игра – головоломка”, package ru.denwa.game2048) collects and why. The game has no ads, no in-app purchases, no own account system and no own server. Players in Russia can voluntarily support its development through their bank (see “Support for the development”).</p>
 <h2>Data stored on your device</h2>
 <p>Your scores, best scores, games in progress, undo history, settings, game progress (level, XP, crystals, collection, achievements, streak and daily quests) and the history of your recent games with their moves are kept in the app’s private storage on your device. They are not sent to us.</p>
 <h2>Backups</h2>
@@ -56,11 +56,18 @@ footer a{color:var(--soft)}
 <h2>Notifications</h2>
 <p><b>Streak and daily challenge reminders</b> are scheduled on your device: the game remembers at what time of day you usually play (the last 7 days) and reminds you at that time if your streak may end today or today's challenge is still waiting — at most once a day and never from 10 pm to 9 am. This information stays on your device. The home screen widget shows the same data from your device.</p>
 <p><b>New modes.</b> When “New modes and updates” is on, the game subscribes to a Firebase Cloud Messaging topic, and we send one message to all subscribers when an update with a new mode is out. For this, Firebase Cloud Messaging creates a registration token for your installation; it contains no personal information and is used only to deliver these messages. Turning the setting off unsubscribes your device.</p>
-<p>On Android 13 and later the game asks for permission to show notifications when your streak reaches 2 days. You can turn notifications off at any time in the game settings or in the system settings.</p>
+<p><b>Monthly support.</b> If you choose monthly support of the development, the game reminds you once a month at noon, scheduled on your device (see “Support for the development”).</p>
+<p>On Android 13 and later the game asks for permission to show notifications when your streak reaches 2 days or when you choose monthly support. You can turn notifications off at any time in the game settings or in the system settings.</p>
 <h2>Daily challenge table</h2>
 <p>When you finish a daily challenge, the game sends your result to the table of the day, stored in Google Firebase (Cloud Firestore): your score, best tile, number of moves, game time, the moves of the game (to check the result), the app version and the time of sending. Other players see your place, score and name in the table: your Google Play Games name when you are signed in, otherwise “Player #” with four characters of an identifier.</p>
 <p>To keep one result per player, the game signs you in to Firebase Authentication with your Google Play Games account, or anonymously when you are not signed in to Play Games. Firebase App Check uses Google Play Integrity to confirm that the result comes from the real game.</p>
 <p>Results stay in the table to keep past tables complete. To have yours removed, contact us.</p>
+<h2>Support for the development</h2>
+<p>Players in Russia can voluntarily support the development of the game, once or every month. “Pay with SBP” opens your bank’s app (or the page of the Faster Payments System with the list of banks) with the static payment QR code of the developer, ООО «6 БИТ», whose account is at T-Bank. You enter the amount and confirm the payment in your bank’s app. The game does not receive your bank, card or account details, the amount or whether you paid, and the payment gives nothing in the game.</p>
+<p>The payment is processed by your bank, the Faster Payments System (operated by NSPC, the National Payment Card System) and T-Bank under their own terms. As the recipient, we see only what our bank shows us about an incoming payment and use it only for accounting.</p>
+<p>To decide whether to offer this, the game checks on your device the country of your SIM card or mobile network, or else the region of the device. It is not sent anywhere.</p>
+<p><b>Monthly support</b> is a reminder, not a subscription: nothing is debited automatically. The game remembers on your device the date you last tapped “Pay” and reminds you a month later with a notification and a card on the home screen. You can turn the reminders off in the same window at any time.</p>
+<p>Usage events about this window — opened, “Pay” tapped, monthly reminders turned off, the card hidden — are sent to Firebase Analytics and AppMetrica as described above, without any payment details.</p>
 <h2>Sharing a result</h2>
 <p>“Share” on the results screen creates a picture of your board and score on your device and passes it to the app you choose. Nothing is sent to us.</p>
 <h2>Rating the app</h2>
